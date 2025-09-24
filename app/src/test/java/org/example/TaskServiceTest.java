@@ -12,7 +12,7 @@ public class TaskServiceTest {
 
         //assertNotNull(result);
         System.out.println("Test is running");
-        assertEquals("Write report", result.getName());
+        assertEquals("Write repor", result.getName());
     }
 
     @Test
