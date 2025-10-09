@@ -24,6 +24,6 @@ public class TaskServiceTest {
             service.addTask(task);
         });
 
-        assertEquals("Task nam cannot be empty", exception.getMessage());
+        assertEquals("Task name cannot be empty", exception.getMessage());
 }
 }
